@@ -45,7 +45,7 @@ namespace :tddium do
       cmd "heroku run rake db:migrate --app #{app_name}" or abort 'aborted migrations'
 
       puts 'Restarting Heroku...'
-      cmd "bundle exec heroku restart --app #{app_name}" or abort 'aborted heroku restart'
+      cmd "heroku restart --app #{app_name}" or abort 'aborted heroku restart'
     end
   end
 end
