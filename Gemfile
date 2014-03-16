@@ -29,9 +29,6 @@ group :development, :test do
   gem 'poltergeist'
   gem 'rspec-rails'
   gem 'spring-commands-rspec'
-  gem 'guard-rspec', require: false
-  gem 'guard-rubocop'
-  gem 'guard-teaspoon'
   gem 'rubocop'
   gem 'rspec_api_blueprint', github: 'playround/rspec_api_blueprint', require: false
   gem 'factory_girl_rails', github: 'thoughtbot/factory_girl_rails'
