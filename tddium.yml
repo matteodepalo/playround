@@ -1,0 +1,12 @@
+---
+:tddium:
+  :tests:
+    - rubocop
+  :ruby_version: ruby-2.1.1
+  :bundler_version: 1.3.5
+  :postgresql:
+    :version: '9.3'
+  :rake:
+    :rails_env: test
+  :hooks:
+    :worker_setup: bundle exec rake db:test:prepare
