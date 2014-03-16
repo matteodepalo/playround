@@ -9,7 +9,7 @@ gem 'active_model_serializers'
 gem 'dotenv'
 gem 'omniauth'
 gem 'newrelic_rpm'
-gem 'honeybadger'
+gem 'rollbar'
 
 gem 'sass-rails'
 gem 'uglifier'
