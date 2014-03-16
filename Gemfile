@@ -27,6 +27,7 @@ group :development, :test do
   gem 'jazz_hands'
   gem 'teaspoon'
   gem 'poltergeist'
+  gem 'rspec'
   gem 'rspec-rails'
   gem 'spring-commands-rspec'
   gem 'rubocop'
