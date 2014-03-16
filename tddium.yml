@@ -8,5 +8,3 @@
     :version: '9.3'
   :rake:
     :rails_env: test
-  :hooks:
-    :worker_setup: bundle exec rake db:test:prepare
