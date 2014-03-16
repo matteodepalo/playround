@@ -10,4 +10,3 @@
     :rails_env: test
   :hooks:
     :worker_setup: bundle exec rake db:test:prepare
-    :post_build: 'git push git@heroku.com:playround-staging.git master && heroku run rake db:migrate --app playround-staging'
