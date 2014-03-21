@@ -4,9 +4,6 @@ AllCops:
     - bin/**
     - db/**
     - config/**
-    # tddium
-    - rgloader/loader.rb
-    - !ruby/regexp /.*tddium.*\.rb$/
 
 LineLength:
   Enabled: false
